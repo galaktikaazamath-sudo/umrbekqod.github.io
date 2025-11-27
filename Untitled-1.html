@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaxsiy Vizitka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Untitled-1.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Freelance Dizayner &amp; Frontend Dasturchi</p>
+        <h1>Qodomov Umrbek</h1>
+        <p class="lead">
+          Zamonaviy, mobilga mos va tezkor veb-sahifalar. Brendingizni
+          internetda yorqin ko‘rsatishda yordam beraman.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#kontakt">Bog‘lanish</a>
+          <a class="btn ghost" href="#loyihalar">Portfel</a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <p class="hero__card-label">Hozir buyurtmaga</p>
+        <p class="hero__card-value">3 ta loyiha</p>
+        <p class="hero__card-hint">bo‘sh joy 2025-yil yanvar</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="haqida">
+        <div class="section__header">
+          <p class="eyebrow">Men haqimda</p>
+          <h2>Muvaffaqiyat – sodda yechimlarda</h2>
+        </div>
+        <div class="grid two-cols">
+          <p>
+            1 yildan beri kichik biznes va startaplarga veb-yechimlar yarataman.
+            Dizayn va dasturlashni birlashtirib, foydalanuvchi uchun ham, egasi
+            uchun ham qulay interfeyslar yaratishni maqsad qilganman.
+          </p>
+          <ul class="badge-list">
+            <li>Responsive dizayn</li>
+            <li>SEO tayyor tuzilma</li>
+            <li>Tezkor yetkazib berish</li>
+            <li>Yagona stil-gayd</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section muted" id="xizmatlar">
+        <div class="section__header">
+          <p class="eyebrow">Xizmatlar</p>
+          <h2>Har bir loyiha uchun to‘liq yo‘ldosh</h2>
+        </div>
+        <div class="grid three-cols cards">
+          <article>
+            <h3>Branding</h3>
+            <p>Logo, ranglar va tipografiya to‘plami.</p>
+            <ul>
+              <li>Moodboard</li>
+              <li>Stil-gayd PDF</li>
+              <li>SMM uchun maketlar</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Landing</h3>
+            <p>Marketingga tayyor, konversiyaga yo‘naltirilgan sahifa.</p>
+            <ul>
+              <li>UX prototip</li>
+              <li>React/Vanilla build</li>
+              <li>Analitika integratsiyasi</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Texnik qo‘llab-quvvatlash</h3>
+            <p>Lanshdan keyingi monitoring va optimizatsiya.</p>
+            <ul>
+              <li>PageSpeed tekshiruvi</li>
+              <li>Kontent yangilash</li>
+              <li>Hosting nazorati</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="loyihalar">
+        <div class="section__header">
+          <p class="eyebrow">Portfel</p>
+          <h2>Oxirgi loyihalar</h2>
+        </div>
+        <div class="grid three-cols gallery">
+          <figure>
+            <figcaption>Mebel brendi — konversiya +38%</figcaption>
+          </figure>
+          <figure>
+            <figcaption>Startap landing — invest lead +24%</figcaption>
+          </figure>
+          <figure>
+            <figcaption>Servis platforma — churn −11%</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section contact" id="kontakt">
+        <div class="section__header">
+          <p class="eyebrow">Bog‘lanish</p>
+          <h2>Birgalikda loyihani boshlaymizmi?</h2>
+        </div>
+        <div class="contact__grid">
+          <div>
+            <p class="lead">
+              Qisqacha asosiy maqsadingizni yozing, 24 soat ichida javob
+              qaytaraman.
+            </p>
+            <div class="contact__list">
+              <a href="tel:+998930588437">+998 93 058 84 37</a>
+              <a href="mailto:hello@qodomov.uz">hello@qodomov.uz</a>
+              <a href="https://t.me/Umrbek_Khushnudovich" target="_blank"
+                >t.me/Umrbek_Khushnudovich</a
+              >
+            </div>
+          </div>
+          <form class="contact__form">
+            <label>
+              Ism-familiya
+              <input type="text" placeholder="Qodomov Umrbek" required />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="name@example.com" required />
+            </label>
+            <label>
+              Loyiha tavsifi
+              <textarea rows="3" placeholder="Qisqacha yozing"></textarea>
+            </label>
+            <button type="submit" class="btn primary full">So‘rov yuborish</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Qodomov Umrbek — barcha huquqlar himoyalangan.</p>
+      <p>
+        Instagram:
+        <a href="https://instagram.com/umrbek_khushnudovich" target="_blank"
+          >@qodomov.design</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
